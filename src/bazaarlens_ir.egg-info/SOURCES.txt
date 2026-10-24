@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/bazaarlens_ir/__init__.py
+src/bazaarlens_ir/cleaning.py
+src/bazaarlens_ir/data_loader.py
+src/bazaarlens_ir/eda.py
+src/bazaarlens_ir/generate_synthetic_sample.py
+src/bazaarlens_ir/kpi.py
+src/bazaarlens_ir/pipeline.py
+src/bazaarlens_ir/profiling.py
+src/bazaarlens_ir.egg-info/PKG-INFO
+src/bazaarlens_ir.egg-info/SOURCES.txt
+src/bazaarlens_ir.egg-info/dependency_links.txt
+src/bazaarlens_ir.egg-info/requires.txt
+src/bazaarlens_ir.egg-info/top_level.txt
+tests/test_bazaarlens.py

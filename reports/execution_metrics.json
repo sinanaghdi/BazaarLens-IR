@@ -1,0 +1,165 @@
+{
+  "data_origin": "synthetic (schema-faithful to RadeAI/BaSalam_comments_products)",
+  "quality_profile": {
+    "total_rows": 608,
+    "unique_product_ids": 600,
+    "duplicate_product_ids": 8,
+    "missing_values_by_column": {},
+    "invalid_non_positive_price_rows": 1,
+    "price_exceeds_primary_rows": 1,
+    "negative_stock_rows": 1
+  },
+  "cleaning_audit": {
+    "initial_rows": 608,
+    "duplicates_removed": 8,
+    "invalid_rows_removed": 2,
+    "inverted_prices_corrected": 1,
+    "final_clean_rows": 598
+  },
+  "marketplace_overview": {
+    "total_clean_skus": 598,
+    "total_vendors": 80,
+    "total_categories": 6,
+    "overall_median_price_toman": 220000.0,
+    "overall_iqr_price_toman": 258962.5,
+    "total_weekly_units_sold": 4369,
+    "total_weekly_gmv_proxy_toman": 1333520200.0,
+    "free_shipping_sku_share_pct": 32.27,
+    "avg_weekly_sales_free_shipping": 8.5,
+    "avg_weekly_sales_paid_shipping": 6.74,
+    "mean_discount_pct": 6.35
+  },
+  "category_summary": [
+    {
+      "categoryId": 103,
+      "categoryTitle": "Nuts & Dried Fruits (خشکبار و آجیل)",
+      "active_sku_count": 108,
+      "available_sku_ratio": 99.1,
+      "free_shipping_share": 27.8,
+      "median_price_toman": 228850.0,
+      "mean_discount_pct": 5.56,
+      "total_weekly_units": 799,
+      "total_weekly_gmv_proxy_toman": 273357600.0,
+      "mean_bayesian_rating": 4.0,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 20.5
+    },
+    {
+      "categoryId": 102,
+      "categoryTitle": "Handicrafts & Pottery (صنایع دستی و سفال)",
+      "active_sku_count": 107,
+      "available_sku_ratio": 100.0,
+      "free_shipping_share": 29.9,
+      "median_price_toman": 219750.0,
+      "mean_discount_pct": 6.31,
+      "total_weekly_units": 823,
+      "total_weekly_gmv_proxy_toman": 258150400.0,
+      "mean_bayesian_rating": 3.96,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 19.36
+    },
+    {
+      "categoryId": 105,
+      "categoryTitle": "Herbal & Natural Cosmetics (عطاری و آرایشی گیاهی)",
+      "active_sku_count": 90,
+      "available_sku_ratio": 98.9,
+      "free_shipping_share": 32.2,
+      "median_price_toman": 254000.0,
+      "mean_discount_pct": 7.06,
+      "total_weekly_units": 671,
+      "total_weekly_gmv_proxy_toman": 219823200.0,
+      "mean_bayesian_rating": 3.95,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 16.48
+    },
+    {
+      "categoryId": 101,
+      "categoryTitle": "Food & Organic Honey (مواد غذایی و عسل طبیعی)",
+      "active_sku_count": 110,
+      "available_sku_ratio": 99.1,
+      "free_shipping_share": 33.6,
+      "median_price_toman": 207125.0,
+      "mean_discount_pct": 5.73,
+      "total_weekly_units": 746,
+      "total_weekly_gmv_proxy_toman": 208155550.0,
+      "mean_bayesian_rating": 3.98,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 15.61
+    },
+    {
+      "categoryId": 106,
+      "categoryTitle": "Home & Kitchen Decor (خانه و آشپزخانه)",
+      "active_sku_count": 92,
+      "available_sku_ratio": 98.9,
+      "free_shipping_share": 38.0,
+      "median_price_toman": 229000.0,
+      "mean_discount_pct": 7.66,
+      "total_weekly_units": 678,
+      "total_weekly_gmv_proxy_toman": 202444800.0,
+      "mean_bayesian_rating": 3.95,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 15.18
+    },
+    {
+      "categoryId": 104,
+      "categoryTitle": "Apparel & Traditional Textiles (پوشاک و منسوجات سنتی)",
+      "active_sku_count": 91,
+      "available_sku_ratio": 100.0,
+      "free_shipping_share": 33.0,
+      "median_price_toman": 217550.0,
+      "mean_discount_pct": 6.04,
+      "total_weekly_units": 652,
+      "total_weekly_gmv_proxy_toman": 171588650.0,
+      "mean_bayesian_rating": 3.97,
+      "median_prep_days": 2.0,
+      "gmv_share_pct": 12.87
+    }
+  ],
+  "top_5_vendors_sql": [
+    {
+      "vendor_name": "VND_013",
+      "vendor_status_title": "غرفه فعال",
+      "sku_count": 10,
+      "weekly_units": 82,
+      "weekly_gmv_toman": 47628100.0,
+      "avg_bayesian_rating": 4.05
+    },
+    {
+      "vendor_name": "VND_057",
+      "vendor_status_title": "غرفه تازهکار",
+      "sku_count": 12,
+      "weekly_units": 94,
+      "weekly_gmv_toman": 41337900.0,
+      "avg_bayesian_rating": 3.95
+    },
+    {
+      "vendor_name": "VND_045",
+      "vendor_status_title": "غرفه برتر",
+      "sku_count": 7,
+      "weekly_units": 63,
+      "weekly_gmv_toman": 36031000.0,
+      "avg_bayesian_rating": 4.14
+    },
+    {
+      "vendor_name": "VND_061",
+      "vendor_status_title": "غرفه فعال",
+      "sku_count": 8,
+      "weekly_units": 72,
+      "weekly_gmv_toman": 34786250.0,
+      "avg_bayesian_rating": 4.12
+    },
+    {
+      "vendor_name": "VND_003",
+      "vendor_status_title": "غرفه فعال",
+      "sku_count": 10,
+      "weekly_units": 117,
+      "weekly_gmv_toman": 34383500.0,
+      "avg_bayesian_rating": 4.33
+    }
+  ],
+  "generated_charts": [
+    "reports\\figures\\fig1_category_gmv_proxy.png",
+    "reports\\figures\\fig2_shipping_prep_velocity.png",
+    "reports\\figures\\fig3_bayesian_rating_shrinkage.png"
+  ]
+}

@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-meta/
+
+# Data files (keep raw & large files out of Git; only commit small synthetic sample & README)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.parquet
+!data/sample/synthetic_basalam_products.csv
+!data/sample/synthetic_basalam_reviews.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets & local configs
+.env
+*.sqlite3
+*.db
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
